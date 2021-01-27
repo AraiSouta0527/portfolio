@@ -1,0 +1,203 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap');
+
+/* 会員情報関連 */
+body {
+    position: relative;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+.logined_user {
+    position: absolute;
+    top: 500px;
+    right: 200px;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+}
+form {
+    margin: 0 5px 0 0;
+
+
+}
+.logined_user form input:hover {
+    cursor: default;
+}
+.logined_user p {
+    margin: 0;
+    padding-top: 4px;
+}
+#user_area {
+    position: absolute;
+    top: 500px;
+    right: 20px;
+    width: 10%;
+    display: flex;
+    flex-flow: column;
+}
+#user_area button {
+    margin: 4px 0 4px 0;
+    padding: 4px;
+    border-style: none;
+    cursor: pointer;
+    background-color: #f8a054;
+    color: #fff;
+}
+
+#user_area button:hover {
+    opacity: 0.7;
+}
+#user_area button:active {
+    opacity: 1;
+}
+
+/* 会員情報関連ここまで */
+
+/* 動画リスト */
+article {
+    margin: 160px auto;
+}
+article h2 {
+    width: fit-content;
+    margin: 80px 0 -20px 25px;
+    padding: 2px;
+    border-left: 5px #f8a054 solid;
+    font-size: 20px;
+    background-color: ivory;
+}
+.mypage_history_section {
+    margin: 0 auto;
+}
+.mypage_list_section {
+    margin-top: 30px;
+}
+.mypage_box_cover {
+    margin: 12px auto 8px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+.more_button1 {
+    display: block;
+    margin: 0 auto;
+    border-style: none;
+    box-shadow: black 2px 2px 2px;
+    background-color: ivory;
+}
+.more_button1 button {
+    display: block;
+    border-style: none;
+    width: 90px;
+    height: 60px;
+    box-shadow: black 2px 2px 2px;
+    background-color: ivory;
+}
+.more_button2 {
+    display: block;
+    margin: 0 auto;
+    border-style: none;
+    box-shadow: black 2px 2px 2px;
+    background-color: ivory;
+}
+.more_button2 button {
+    display: block;
+    border-style: none;
+    width: 90px;
+    height: 60px;
+    box-shadow: black 2px 2px 2px;
+    background-color: ivory;
+}
+.more_button3 {
+    display: block;
+    margin: 0 auto;
+    border-style: none;
+    box-shadow: black 2px 2px 2px;
+    background-color: ivory;
+}
+.more_button3 button {
+    display: block;
+    border-style: none;
+    width: 90px;
+    height: 60px;
+    box-shadow: black 2px 2px 2px;
+    background-color: ivory;
+}
+.mypage_history_box {
+
+    width: 280px;
+    height: 154px;
+    margin: 5px 8px;
+}
+.mypage_history_box p {
+    margin-bottom: 0;
+    font-size: 16px;
+    text-indent: 1em;
+}
+.mypage_history_box div {
+    margin: 0 auto;
+    height: 150px;
+    border: solid 2px #f8a054;
+    box-shadow: black 4px 4px 8px;
+    transition: all 0.3s ease 0s;
+}
+.mypage_history_box div:hover {
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+.mypage_history_box div:active {
+    box-shadow: none;
+}
+.mypage_history_box figure {
+    margin: 4px auto;
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px #f8a054;
+}
+.mypage_history_box h3 {
+    margin: 0 auto;
+    width: inherits;
+    text-align: center;
+}
+
+.mypage_list_box {
+
+    width: 280px;
+    height: 154px;
+    margin: 5px 8px;
+}
+.mypage_list_box p {
+    margin-bottom: 0;
+    font-size: 16px;
+    text-indent: 1em;
+}
+.mypage_list_box div {
+    margin: 0 auto;
+    height: 150px;
+    border: solid 2px #f8a054;
+    box-shadow: black 4px 4px 8px;
+    transition: all 0.3s ease 0s;
+}
+.mypage_list_box div:hover {
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+.mypage_list_box div:active {
+    box-shadow: none;
+}
+.mypage_list_box figure {
+    margin: 4px auto;
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px #f8a054;
+}
+.mypage_list_box h3 {
+    margin: 0 auto;
+    width: inherits;
+    text-align: center;
+}
+.mypage_favorite_section h2 {
+    margin-bottom: 4px;
+}

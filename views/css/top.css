@@ -1,0 +1,254 @@
+@charset "utf-8";
+
+/* 基本レイアウト */
+
+#mypageBtn {
+    float: left;
+    background-color: #c4e0f9;
+    border: 3px groove #c4e0fc;
+    margin: 5px 0 10px 5px;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+#mypageBtn:hover {
+    cursor: pointer;
+}
+#registBox {
+    float: right;
+    display: flex;
+    margin: 5px 5px 10px 0;
+}
+#registBox_after {
+    float:right;
+    display: flex;
+    margin: 5px 5px 10px 0;
+}
+#registBox button {
+    background-color: #c4e0f9;
+    border: 3px groove #c4e0fc;
+    color: #999;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+#registBox #button1 {
+    margin-right: 5px;
+}
+#registBox button:hover {
+    cursor: pointer;
+}
+#registBox_after button {
+    background-color: #c4e0f9;
+    border: 3px groove #c4e0fc;
+    color: #999;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+#registBox_after #button1 {
+    margin-right: 5px;
+}
+#registBox_after a {
+    color: #999;
+}
+#registBox_after button:hover {
+    cursor: pointer;
+}
+#clear {
+    clear: both;
+}
+#wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+header {
+    border: 6px ridge #f2dbb5;
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+}
+.flexBox1 {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* メインコンテンツ */
+#contents1 {
+    float: left;
+    width: 463px;
+    height: auto;
+    margin: 10px 15px 10px 0;
+}
+#contents1 h2 {
+    font-family: 'Kosugi Maru', sans-serif;
+    text-align: center;
+}
+#contents2 {
+    float: left;
+    width: 463px;
+    height: auto;
+    margin: 10px 0 1px 15px;
+}
+#contents2 h2 {
+    font-family: 'Kosugi Maru', sans-serif;
+    text-align: center;
+}
+.contents_box {
+    margin: 5px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.more {
+    width: fit-content;
+    height: 20px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 4px;
+    background-color: ivory;
+    font-size: 80%;
+}
+.more a {
+    width: 100%;
+    font-size: 16px;
+    padding: 16px 24px;
+}
+.more a:hover {
+    opacity: 0.5;
+}
+.contents_cover {
+    width: 433px;
+    height: 305px;
+    margin: 30px 8px;
+    border: 1px solid #999;
+    box-shadow: black 3px 3px 5px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.contents_cover:hover {
+    cursor: pointer;
+    box-shadow: none;
+    transform: scale(1.1, 1.1);
+    z-index: 3;
+}
+.contents_cover h3 {
+    text-align: center;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 80%;
+}
+.contents_cover h3:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+.contents_cover p {
+    width: 330px;
+    text-indent: 1em;
+    margin: 5px 40px 15px;
+}
+.contents_cover table {
+    font-size: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.video_content {
+    width: 330px;
+    height: 170px;
+    margin: 15px 50px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+}
+.video_content:hover {
+    box-shadow: black 3px 3px 5px;
+}
+.game_content {
+    width: 330px;
+    height: 170px;
+    margin: 15px 50px;
+    border: 1px solid #999;
+    transition: all 0.3s ease 0s;
+}
+.game_content:hover {
+    box-shadow: black 3px 3px 5px;
+}
+
+/* フッター */
+#footer {
+    margin: 10px 0;
+    align-content: center;
+    clear: both;
+    width: 100%;
+    position: relative;
+}
+.footer_content_cover {
+    width: 433px;
+    height: 305px;
+    margin: 10px auto;
+    border: 1px solid #999;
+    align-items: center;
+    justify-content: center;
+}
+.footer_content_cover h3 {
+    text-align: center;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 80%;
+}
+.footer_content_cover p {
+    width: 330px;
+    text-indent: 1em;
+    margin: 5px 40px 15px;
+}
+#Inquiry {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    background-color: #c4e0f9;
+    border: 3px groove #c4e0fc;
+    margin: 5px 0 10px 5px;
+}
+#Inquiry:hover {
+    cursor: pointer;
+}
+article,details,figcaption,figure,hgroup,menu,nav,section {
+    display: block;
+}
+
+/* ヘッダー・レコメンド */
+header {
+    margin: 0;
+    padding: 0;
+}
+.recommend_box {
+    border: 1px solid #999;
+    margin:4px 7px 4px 9px;
+    width: 308px;
+    height: 154px;
+    background-color: #fff;
+}
+.recommend_box p {
+    font-size: 12px;
+    text-align: center;
+    margin: 3px 0;
+}
+.recommend_content
+{
+    border: 1px solid #999;
+    background-color: burlywood;
+    width: 250px;
+    height: 120px;
+    z-index: 3;
+    align-content: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+/* キャプション */
+.caption {
+    display: inline-blocks;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Kosugi Maru', sans-serif;
+}
